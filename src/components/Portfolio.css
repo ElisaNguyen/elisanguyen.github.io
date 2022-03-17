@@ -1,0 +1,66 @@
+.portfolio{
+    display: flex;
+    margin: 5% auto 0;
+}
+
+.portfolio-content{
+    flex: 3;
+    margin-left: 3%;
+    padding-bottom: 3%;
+    overflow: scroll;
+}
+
+.project{
+    width: 40%;
+    height:50%;
+    display: inline-table;
+    margin: 3% 5% 0 auto;
+    border: 2px solid lightgray;
+}
+
+.project:hover{
+    border: 2px solid slategray;
+}
+
+.projectname{
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 3%;
+}
+
+.project-occasion{
+    padding: 3%;
+    font-style: italic;
+}
+
+.project-topic{
+    padding: 3%;
+    font-size: 11pt;
+}
+
+.project-details{
+    font-size: 11pt;
+    color: slategray;
+    padding: 3%;
+    display: none;
+}
+
+.link{
+    padding: 5%;
+    font-size: 20pt;
+    color: white;
+    display:none;
+}
+
+.link a{
+    color: slategray;
+}
+
+.project:hover div.project-occasion, .project:hover div.project-topic {
+    display: none;
+}
+
+.project:hover div.project-details, .project:hover div.link {
+    display: inline-block;
+}
+

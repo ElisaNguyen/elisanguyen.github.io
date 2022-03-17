@@ -1,0 +1,95 @@
+.about{
+    display: flex;
+    margin: 5% auto 0;
+}
+
+.about-sidebar{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid lightgray;
+    margin-bottom: 5%;
+}
+
+.about-overview{
+    flex: 3;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.sidebar-pic{
+    width: 75%;
+    border-radius: 100%;
+}
+
+.sidebar-name{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.sidebar-title{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.sidebar-contact{
+    font-size: 11pt;
+    text-align: left;
+    line-height: 20pt;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
+.overview-greeting{
+    font-size: 20pt;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.overview-text{
+    padding-top: 3%;
+}
+
+.overview-links{
+    display: flex;
+    text-align: center;
+    padding-top:3%;
+}
+
+.overview-button{
+    width: 20%;
+    padding: 3%;
+    border: 1px solid lightgray;
+    margin-right: 3%;
+    font-size: 12pt;
+    font-weight: lighter;
+    letter-spacing: 3pt;
+}
+
+.overview-button:hover {
+    background: lightgray;
+}
+
+.nav-button{
+    text-align: right;
+    width: fit-content;
+    font-size: 11pt;
+    font-style: italic;
+}
+
+.content-headline{
+    font-weight: bold;
+    font-size: 20pt;
+    padding-bottom:1%;
+    padding-top: 3%;
+}

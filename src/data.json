@@ -1,0 +1,108 @@
+{
+  "about": {
+    "info": {
+      "image": "../img/profilepic.jpg",
+      "name": "Nguyen",
+      "firstname": "Elisa",
+      "title": "M.Sc. Interaction Technology",
+      "researchfield": "trustworthy AI",
+      "location": "Hamburg, Germany",
+      "email": "mailto:elisa.nguyen@live.de",
+      "linkedin": "https://www.linkedin.com/in/nguyen-elisa",
+      "github": "http://github.com/ElisaNguyen",
+      "scholar": "https://scholar.google.nl/citations?user=YuBPap8AAAAJ&hl=en",
+      "orcid": "https://orcid.org/my-orcid?orcid=0000-0003-0224-268X",
+      "welcometext": "I am passionate about researching how technology can benefit humans and society, in particular the field of responsible and trustworthy AI.\n                    I believe that AI offers a great potential to improve our lives and contribute to solving issues but the implementation must ensure fairness and transparency.\n                "
+    }
+  },
+  "cv": {
+    "education": [{
+      "title": "M.Sc. Interaction Technology",
+      "duration": "09/2019 - 12/2021",
+      "uni": "University of Twente",
+      "location": "Enschede, The Netherlands",
+      "description": "A 2-year master's degree that focuses on the human and technology, with courses in machine learning, deep learning, research methods, design and ethics. I decided to focus my study on applied machine learning and graduated with distinction with a thesis in the field of explainable AI for spiking neural networks under the supervision of Prof. Dr. Christin Seifert, Dr. ing. Gwenn Englebienne and Meike Nauta, M.Sc. \n     During my studies, I also worked as TA in NLP and Data Science (grading homework, supervising tutorials)."
+    },
+    {
+      "title": "B.Sc. Computer Science and Management",
+      "duration": "10/2013 - 03/2017",
+      "uni": "Nordakademie",
+      "location": "Elmshorn, Germany",
+      "description": "A dual 7-semester bachelor's degree in cooperation with Airbus, with courses in IT project management and organization, software engineering, programming, theoretical and technical foundations of computer science, business administration and finance. I graduated with a thesis in requirements development for PLM systems in the aviation industry in an Industry 4.0 setting under the supervision of Prof. Dr. Hinrich Schröder and Alcibiades Gonzalez-Noval (Airbus). \n I was also working as a TA for Discrete Mathematics 1 and 2 during my studies, and spent an Erasmus semester at the ebs Paris with a focus on intercultural management."
+    }],
+    "work": [{
+      "title": "Student Research Assistant XAI",
+      "duration": "05/2021 - 12/2021",
+      "company": "University of Twente",
+      "location": "Enschede, The Netherlands",
+      "description": "Part of a research team across the universities of Twente and Duisburg-Essen that performed a literature study on evaluation methods for XAI led by Meike Nauta."
+    },
+    {
+      "title": "IT Project Manager",
+      "duration": "03/2017 - 09/2019",
+      "company": "Airbus",
+      "location": "Hamburg, Germany",
+      "description": "Scrum Master for a CAD software legacy retirement project as well as project support in risk, budget and stakeholder management in the PLM area. Additionally, I also had tasks in the technical and financial supplier bundle management of my department. On top, I was a change agent in an organizational transformation program towards an agile organization structure (SAFe)."
+    },
+      {
+        "title": "Dual Student in Computer Science and Management",
+        "duration": "08/2013 - 03/2017",
+        "company": "Airbus",
+        "location": "Hamburg, Germany",
+        "description": "As a dual student I switched in between university and internships at the ICT department at Airbus in Hamburg. In this time, I absolved internships in IT governance, project- and service management, with one internship in Toulouse, France. I was also part of Airbus' vocational training IT team, who took over some administrative IT tasks."
+      }],
+    "volunteer": [{
+      "title": "Tutor",
+      "duration": "02/2022 - present",
+      "initiative": "Bürger helfen Bürgern e.V. Hamburg",
+      "location": "Hamburg, Germany",
+      "description": "Helping a third-grader with homework twice a week."
+    },
+      {
+        "title": "Tutor",
+        "duration": "10/2017 - 05/2019",
+        "initiative": "Freiwilligenbörse Hamburg",
+        "location": "Hamburg, Germany",
+        "description": "Tutoring students in secondary school in Germany, including the preparation for the Abitur in Maths and English."
+      }]
+  },
+  "portfolio": [{
+    "name": "Temporal Spike Attribution",
+    "occasion": "Master Thesis",
+    "keywords": "Explainable AI, spiking neural networks, feature attribution",
+    "report": "https://essay.utwente.nl/89110/",
+    "github": "https://github.com/ElisaNguyen/tsa-explanations",
+    "description": "Development and evaluation of a local, post-hoc heatmap-type explanation for a prediction of temporally coded spiking neural networks using the model internal variables. This method is demonstrated on a time-series classification task."
+  },
+  {
+    "name": "Automated Summarization of Breast Cancer Radiology Reports",
+    "occasion": "Publication from university project",
+    "keywords": "Abstractive summarization, medical data science, encoder-decoder with attention",
+    "report": "https://ieeexplore.ieee.org/document/9319371",
+    "github": "https://github.com/daphne12345/SummarizationRadiologyReports",
+    "description": "Automated summarization of Dutch Breast Cancer Radiology reports using an Encoder-Decoder model with Attention and a text classifier (SVM) for extracting the correct cancer severity score (BI-RADS)."
+  },
+  {
+    "name": "Pokérator - Unveil your inner Pokémon",
+    "occasion": "Publication from university project",
+    "keywords": "Creative computing, natural language generation",
+    "report": "http://computationalcreativity.net/iccc20/papers/159-iccc20.pdf",
+    "github": "https://github.com/ElisaNguyen/Pokerator",
+    "description": "Creative naming and language generation based on user input using syllable-based and character-based n-gram models as well as OpenAI's GPT-2."
+  },
+  {
+    "name": "Defending against Projected Gradient Descent",
+    "occasion": "University project",
+    "keywords": "Adversarial attack, data augmentation, deep learning",
+    "github": "https://github.com/ElisaNguyen/dl-defense-pgd",
+    "description": "Testing generalization through data augmentation, adversarial training, and combinations as a defense against adversarial attacks with the PGD attack. This project was developed in the frame of the course Deep Learning at the University of Twente."
+  },
+  {
+    "name": "Sentiment Classifier from Speech",
+    "occasion": "University project",
+    "keywords": "Stressed speech, classification, decision tree",
+    "github": "https://github.com/Kata-M/SP_Sentiment_Classifier",
+    "description": "Binary decision tree classifier for stressed speech features (MFCC, pitch, pitch energy) based on self-recorded data of 5 participants. This project was developed in the frame of the course Speech Processing at the University of Twente."
+  }
+  ]
+}
