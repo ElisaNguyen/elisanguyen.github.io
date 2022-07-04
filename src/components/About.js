@@ -39,13 +39,13 @@ const About = () => {
                     Hello, I'm {data.about.info.firstname}!
                 </div>
                 <p className="overview-text"> I am passionate about researching how technology can benefit humans and society, in particular the field of responsible and trustworthy AI. <br/>
-                    Recently, I have started my PhD studies in this direction in the <a href="https://scalabletrustworthyai.github.io">Scalable Trustworthy AI</a> group of
-                    <a href="https://coallaoh.github.io">Seong Joon Oh</a> at the University of Tübingen,
-                    in the frame of the doctoral program of the <a href="https://imprs.is.mpg.de"> International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a>. <br/>
+                    Recently, I have started my PhD studies in this direction in the <b><a href="https://scalabletrustworthyai.github.io">Scalable Trustworthy AI</a></b> group of
+                    <b><a href="https://coallaoh.github.io">Seong Joon Oh</a></b> at the University of Tübingen,
+                    in the frame of the doctoral program of the <b><a href="https://imprs.is.mpg.de"> International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a></b>. <br/>
                     I believe that AI offers a great potential to improve our lives and contribute to solving issues but the implementation must ensure fairness and transparency.<br/>
                 </p>
                 <p className="overview-text">
-                    This website presents my CV so far and my past projects. Feel free to check them out!
+                    This website presents my CV so far and my past projects (under construction). Feel free to check them out!
                 </p>
                 <div className="overview-links">
                     <Link to="/cv" className="overview-button">

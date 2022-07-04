@@ -67,9 +67,9 @@ a:visited{
 }
 
 .overview-button{
-    width: 20%;
     padding: 3%;
     border: 1px solid lightgray;
+    border-radius: 15px;
     margin-right: 3%;
     font-size: 12pt;
     font-weight: lighter;
