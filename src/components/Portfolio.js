@@ -1,14 +1,13 @@
 import React from "react";
 import "./Portfolio.css"
 import "./About.css"
-/*import data from "./../data.json"
+import data from "./../data.json"
 import profilepic from "../img/profilepic.jpg";
-import {Link} from "react-router-dom";*/
+import {Link} from "react-router-dom";
 
 const Portfolio = () => {
 
-    return <b>Under construction!</b>
-    /*var portfolio = data.portfolio.map(function(project) {
+    var portfolio = data.portfolio.map(function(project) {
         return <div className="project">
                 <div className="projectname">{project.name}</div>
                 <div className="project-occasion">{project.occasion}</div>
@@ -56,7 +55,7 @@ const Portfolio = () => {
                 {portfolio}
             </div>
         </div>
-    );*/
+    );
 }
 
 export default Portfolio
