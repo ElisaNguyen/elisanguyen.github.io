@@ -51,9 +51,6 @@ const About = () => {
                     <Link to="/cv" className="overview-button">
                         <div>CV</div>
                     </Link>
-{/*                    <Link to="/portfolio" className="overview-button">
-                        <div>PORTFOLIO</div>
-                    </Link>*/}
                 </div>
             </div>
         </div>
