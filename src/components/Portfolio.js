@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";*/
 
 const Portfolio = () => {
 
-    return {<b>Under construction!</b>}
+    return <b>Under construction!</b>
     /*var portfolio = data.portfolio.map(function(project) {
         return <div className="project">
                 <div className="projectname">{project.name}</div>
