@@ -45,15 +45,15 @@ const About = () => {
                     I believe that AI offers a great potential to improve our lives and contribute to solving issues but the implementation must ensure fairness and transparency.<br/>
                 </p>
                 <p className="overview-text">
-                    This website presents my CV so far and my past projects (under construction). Feel free to check them out!
+                    This website presents my CV so far and my past projects (coming soon). Feel free to check them out!
                 </p>
                 <div className="overview-links">
                     <Link to="/cv" className="overview-button">
                         <div>CV</div>
                     </Link>
-                    <Link to="/portfolio" className="overview-button">
+{/*                    <Link to="/portfolio" className="overview-button">
                         <div>PORTFOLIO</div>
-                    </Link>
+                    </Link>*/}
                 </div>
             </div>
         </div>
