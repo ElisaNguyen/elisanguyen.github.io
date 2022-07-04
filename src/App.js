@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import About from "./components/About";
 import CV from "./components/CV";
-import Portfolio from "./components/Portfolio";
 
 function App() {
   ReactDOM.render((
@@ -18,7 +17,6 @@ function App() {
             <Switch>
                 <Route exact path="/" component={About} />
                 <Route path="/cv" component={CV} />
-                <Route path="/portfolio" component={Portfolio} />
                 <Redirect to="/" />
             </Switch>
         </div>
